@@ -2,6 +2,62 @@
 
 A comprehensive hiring application that helps companies manage job postings, applications, and candidate pre-screening through AI-powered interviews.
 
+## 📸 Screenshots
+
+### Application Overview
+![Dashboard Overview](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_57_AM.png)
+
+### User Interface
+![User Interface](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_57_AM2.png)
+
+### Job Management System
+![Job Management](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_58_AM.png)
+
+### Application Tracking
+![Application Tracking](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_58_AM%20(1).png)
+
+### AI Interview System
+![AI Interview System](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_58_AM3.png)
+
+### Analytics Dashboard
+![Analytics Dashboard](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_59_AM.png)
+
+### User Management
+![User Management](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_59_AM%20(1).png)
+
+### Settings Panel
+![Settings Panel](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_00_AM.png)
+
+### Role Management
+![Role Management](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_00_AM%20(1).png)
+
+### Interview Configuration
+![Interview Configuration](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_00_AM%20(2).png)
+
+### Candidate Experience
+![Candidate Experience](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_00_AM%20(3).png)
+
+### Application Details
+![Application Details](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_01_AM.png)
+
+### AI Evaluation Reports
+![AI Evaluation Reports](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_01_AM%20(1).png)
+
+### System Configuration
+![System Configuration](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_02_AM.png)
+
+### Advanced Features
+![Advanced Features](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_02_AM%20(1).png)
+
+### Mobile Responsive Design
+![Mobile Responsive](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_03_AM.png)
+
+### Additional Interface Views
+![Additional Views](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_03_AM%20(1).png)
+
+### Complete System Overview
+![System Overview](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_04_AM.png)
+
 ## Features
 
 ### Multi-Role System
@@ -239,6 +295,32 @@ After running the seed script, you can use these credentials:
 - Integration with external job boards
 - Video interview capabilities
 - Bulk operations for HR users
+
+## 🖼️ Complete Image Gallery
+
+<div align="center">
+
+### Platform Screenshots Collection
+
+| Dashboard & Analytics | User Management | Job & Application System |
+|:---:|:---:|:---:|
+| ![Dashboard](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_57_AM.png) | ![User Management](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_59_AM%20(1).png) | ![Job Management](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_58_AM.png) |
+| ![Analytics](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_59_AM.png) | ![Role Management](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_00_AM%20(1).png) | ![Applications](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_58_AM%20(1).png) |
+
+| AI Interview System | Settings & Configuration | Mobile & Responsive |
+|:---:|:---:|:---:|
+| ![AI Interview](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_58_AM3.png) | ![Settings](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_00_AM.png) | ![Mobile](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_03_AM.png) |
+| ![AI Reports](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_01_AM%20(1).png) | ![System Config](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_02_AM.png) | ![Responsive](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_03_AM%20(1).png) |
+
+### Additional Platform Views
+![Interface View 1](./ReadmeImages/AI-Hiring-Platform-10-29-2025_02_57_AM2.png)
+![Interface View 2](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_00_AM%20(2).png)
+![Interface View 3](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_00_AM%20(3).png)
+![Interface View 4](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_01_AM.png)
+![Interface View 5](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_02_AM%20(1).png)
+![Complete Overview](./ReadmeImages/AI-Hiring-Platform-10-29-2025_03_04_AM.png)
+
+</div>
 
 ## Support
 
