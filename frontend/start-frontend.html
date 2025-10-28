@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Hiring Platform - Setup Instructions</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .step {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .step h3 {
+            color: #1e40af;
+            margin-top: 0;
+        }
+        .code {
+            background: #1f2937;
+            color: #f9fafb;
+            padding: 15px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+        .success {
+            background: #dcfce7;
+            border: 1px solid #16a34a;
+            color: #15803d;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        .warning {
+            background: #fef3c7;
+            border: 1px solid #f59e0b;
+            color: #92400e;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        .credentials {
+            background: #dbeafe;
+            border: 1px solid #3b82f6;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        .credentials h4 {
+            margin-top: 0;
+            color: #1e40af;
+        }
+        .cred-item {
+            margin: 8px 0;
+            font-family: monospace;
+            background: white;
+            padding: 8px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 AI Hiring Platform</h1>
+        <p>Beautiful Frontend Setup Instructions</p>
+    </div>
+
+    <div class="success">
+        <strong>✅ Backend is running successfully!</strong><br>
+        Your API server is available at: <a href="http://localhost:3001/api/health" target="_blank">http://localhost:3001/api/health</a>
+    </div>
+
+    <div class="warning">
+        <strong>⚠️ PowerShell Execution Policy Issue Detected</strong><br>
+        Your system's PowerShell execution policy is preventing npm from running. Follow the steps below to resolve this.
+    </div>
+
+    <div class="step">
+        <h3>Step 1: Fix PowerShell Execution Policy</h3>
+        <p>Open PowerShell as Administrator and run:</p>
+        <div class="code">Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser</div>
+        <p>Then type <code>Y</code> to confirm.</p>
+    </div>
+
+    <div class="step">
+        <h3>Step 2: Navigate to Frontend Directory</h3>
+        <div class="code">cd C:\Users\ankit\OneDrive\Desktop\hire\frontend</div>
+    </div>
+
+    <div class="step">
+        <h3>Step 3: Install Dependencies</h3>
+        <div class="code">npm install</div>
+        <p>This will install all required packages including React, TypeScript, and Tailwind CSS.</p>
+    </div>
+
+    <div class="step">
+        <h3>Step 4: Start the Development Server</h3>
+        <div class="code">npm start</div>
+        <p>The frontend will be available at: <strong>http://localhost:3000</strong></p>
+    </div>
+
+    <div class="credentials">
+        <h4>🔑 Demo Login Credentials</h4>
+        <div class="cred-item"><strong>Admin:</strong> admin@example.com / Admin123</div>
+        <div class="cred-item"><strong>HR Manager:</strong> hr@example.com / HrManager123</div>
+        <div class="cred-item"><strong>Candidate:</strong> john.doe@example.com / Candidate123</div>
+    </div>
+
+    <div class="step">
+        <h3>Step 5: Configure AI Settings (Important!)</h3>
+        <ol>
+            <li>Login as Admin using the credentials above</li>
+            <li>Navigate to Settings in the sidebar</li>
+            <li>Get an API key from <a href="https://openrouter.ai/" target="_blank">OpenRouter.ai</a></li>
+            <li>Enter your API key and test the connection</li>
+            <li>Start using AI-powered interviews!</li>
+        </ol>
+    </div>
+
+    <div class="step">
+        <h3>🎯 What You Can Do</h3>
+        <ul>
+            <li><strong>As Admin:</strong> Manage users, configure AI settings, view system stats</li>
+            <li><strong>As HR:</strong> Post jobs, review applications, manage AI interviews</li>
+            <li><strong>As Candidate:</strong> Browse jobs, apply, take AI interviews</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3>🛠️ Alternative: Use Command Prompt</h3>
+        <p>If PowerShell continues to have issues, use Command Prompt instead:</p>
+        <div class="code">
+cd C:\Users\ankit\OneDrive\Desktop\hire\frontend<br>
+npm install<br>
+npm start
+        </div>
+    </div>
+
+    <div class="success">
+        <strong>🎉 You're All Set!</strong><br>
+        Once the frontend starts, you'll have a complete AI-powered hiring platform with beautiful UI, role-based access, and AI interview capabilities.
+    </div>
+
+    <script>
+        // Auto-refresh to check if frontend is running
+        setTimeout(() => {
+            fetch('http://localhost:3000')
+                .then(() => {
+                    document.body.innerHTML = `
+                        <div class="header">
+                            <h1>🎉 Success!</h1>
+                            <p>Your AI Hiring Platform is now running!</p>
+                        </div>
+                        <div class="success">
+                            <strong>Frontend:</strong> <a href="http://localhost:3000" target="_blank">http://localhost:3000</a><br>
+                            <strong>Backend:</strong> <a href="http://localhost:3001/api/health" target="_blank">http://localhost:3001/api/health</a>
+                        </div>
+                        <div class="credentials">
+                            <h4>🔑 Login Credentials</h4>
+                            <div class="cred-item"><strong>Admin:</strong> admin@example.com / Admin123</div>
+                            <div class="cred-item"><strong>HR:</strong> hr@example.com / HrManager123</div>
+                            <div class="cred-item"><strong>Candidate:</strong> john.doe@example.com / Candidate123</div>
+                        </div>
+                    `;
+                })
+                .catch(() => {
+                    // Frontend not running yet
+                });
+        }, 5000);
+    </script>
+</body>
+</html>
